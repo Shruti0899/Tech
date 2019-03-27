@@ -1,0 +1,614 @@
+    body{
+        width: 100%;
+        overflow-x: hidden;
+        margin: 0px;
+    }
+
+    #one{
+        padding: 50px 60px;
+        padding-bottom: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        min-height: 30em;
+        max-height: 860px;
+        box-sizing: border-box;
+        background-image: url("https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/header-bg.png");       
+    }
+
+    #upximg{
+        margin-bottom: 40px;
+    }
+
+    #headings{
+        border-left: 10px solid #ea5b0c;
+        margin: 30px 0px;
+        padding-left: 15px;
+    }
+
+    #heading1{
+        font-size: 36px;
+        font-family: 'Raleway';
+        color: white;
+    }
+
+    #heading2{
+        font-size: 36px;
+        font-family: square;
+        color: white;
+        font-weight: 500;
+        margin-top: 0px;
+    }
+
+    #para{
+        font-size: 24px;
+        font-family: "Raleway";
+        color: white;
+        padding-top: 40px;
+    }
+
+    hr{
+        border:0.5px solid #ea5b0c;
+        margin: 3px;
+    }
+
+    #dates{
+        color: #ea5b0c;
+        margin-top: 2px;
+        font-size: 14px;
+    }
+
+    #forms{
+        position: relative;
+        float: right;
+
+    }
+
+    #highlights{
+        align-items: center;
+    }
+
+    #online{
+        font-family: 'Raleway';
+        font-size: 18px;
+
+    }
+
+    #coursehighlights{
+        padding-top: 80px;
+        text-align: center;
+        font-family: 'Roboto';  
+        color: white;
+        font-size: 36px;
+        font-weight:300;
+        box-sizing: border-box;
+        margin-bottom: 110px;
+    }
+
+    #forms{
+        border: 1px solid white;
+        border-radius: 10px;
+        text-align: center;
+        padding: 15px 0px 0px;
+        margin: auto;
+        margin-left: 10px;
+        width: 100%;
+        max-width: 350px;
+    }
+
+    #savemyspot{
+        box-sizing: border-box;
+        background-color: white;
+        border-radius: 10px;
+        padding: 10px 10px;
+    }
+
+    #number{
+        float: right;
+    }
+
+    input{
+        font-family: 'Roboto';
+        margin: 7px 0px;
+        padding: 7px 15px;
+        border: 1px solid rgba(83,83,83,0.72);
+        border-radius: 8px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    #enquiry{
+        font-family: 'Roboto';
+        font-size: 18px;
+        color: white;
+        font-weight: 300;
+        margin-bottom: 5px;
+        padding-left: 4px;
+    }
+
+    #number{
+        text-align: center;
+        padding: 0px 7px 10px;  
+        font-size: 30px;
+        height: 46px;
+        margin: 0px;
+        color: white;
+        box-sizing: border-box;
+        margin-right: 50px;
+    }
+
+    #phone{
+        margin-left: 50px;
+        text-align: center;
+        padding: 0px 7px 10px;  
+        font-size: 30px;
+        height: 46px;
+        max-height: 100%;
+        box-sizing: border-box;
+    }
+
+    #submit{
+        color: white;
+        background-color: #ea5b0c;
+        border: solid white;
+        width: 330px;
+        font-size: 20px;
+    }
+
+    #contact{
+        text-align: center;
+        justify-content: center;
+    }
+
+    #logo{
+        padding-top: 50px;
+    }
+
+    #nothing{
+        display: flex;
+        flex-wrap: wrap;
+        max-height: 60px;
+        transform: rotate(-90deg);
+        margin-right: 80%;
+        margin-top: 100px;
+    }
+
+
+    #first, #second, #third, #fourth{
+        transform: rotate(90deg);
+        text-align: center;
+        min-height: 200px;
+        padding: 20px;
+        min-width: 220px;
+        max-width: 340px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: white;
+        margin: 5px 15px;
+        box-sizing: border-box;
+        height: 225px;
+    }
+
+    #laptop, #bulb, #letter, #certificate{
+        height: 70px;
+        margin:5px;
+    }
+
+    .text{
+        font-family: 'Raleway';
+        font-size: 14px;
+    }
+
+    #two{
+        background-image: url(https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/sbg-1404.png);
+        margin-top: 200px;
+        padding-top: 15px;
+        padding-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        min-height: 30em;
+        max-height: 920px;
+    }
+
+    #speakers{
+        text-align: center;
+        justify-content: center; 
+        padding-left: 510px;
+        padding-right: 510px;
+        }
+
+    #speakerstext{
+            font-size: 36px;
+            font-family: "Roboto";
+            float: right;
+            color: #ea5b0c;
+            margin-top: 31px;
+
+        }
+        
+    #mic{
+            padding-top: 30px; 
+            height: 50px;
+            margin-right: 9px;
+        }
+    #spk1{
+        float:left;
+
+    }
+
+
+    #spk2{
+        float: right;
+        margin-right: 255px; 
+        margin-top: -220px;
+    }
+
+    #spk3{
+        float: right;
+    }
+
+
+    #speakerslist{
+        margin-left: 200px;
+        margin-top: 120px;
+        margin-right: 200px;
+        text-align: center;
+    }
+
+    #speaker1,#speaker2,#speaker3{
+        height: 150px;
+    }
+
+    #speaker2{
+        margin-left: 20px;
+        margin-top: -35px;
+    }
+
+    #speaker1{
+        margin-left: 45px;
+        
+    }
+
+    #speaker3{
+        margin-right: 65px;
+    }
+
+    .name,.designation{
+        font-family: 'Roboto';
+        color: white;
+    }
+
+    .designation{
+        font-size: 15px;
+    }
+
+    #three{
+        background-image: url("https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/Copy%20(1)%20of%20speaker-bg.png");
+        padding-top: 15px;
+        padding-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        min-height: 40em;
+        max-height: 920px;
+    }
+
+    #faculty{
+        text-align: center;
+        justify-content: center; 
+        padding-left: 350px;
+        padding-right: 350px;
+        margin-top: 20px;
+        }
+
+    #globe{
+        padding-top: 20px; 
+        height: 50px;
+        margin-right: 10px;
+        margin-top: 10px;
+        float: left;
+        margin-left: 60px;
+        padding-left: 60px;
+    }
+
+    #facultytext{
+            font-size: 36px;
+            font-family: "Roboto";
+            color: white;
+            padding: 30px;
+            margin-left: 10px;
+            margin-top: -18px;
+        }
+
+    #three hr{
+            border:0.5px solid rgb(81,81,81);
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top:-59px;
+    }
+
+    #five{
+        background-image: url(https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/student-bg-1404.png);
+        padding-top: 15px;
+        padding-bottom: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        min-height: 30em;
+        max-height: 920px;
+        align-content: center;
+        padding-left: 300px;
+        padding-right: 300px;
+        
+    }
+
+    #studentspeak{
+        font-family: 'Roboto';
+        font-size: 30px;
+        color: white;
+        text-align: center;
+    }
+
+    #startquotes,#endquotes{
+        height:auto;
+        width: 50px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    #five hr{
+        border: 1px solid rgb(81, 81, 81);
+    }
+
+    .quotes{
+        color: white;
+    }
+
+    .author{
+        text-align: right;
+        color: white;
+    }
+
+    #endquotes{
+        transform: rotate(-180deg);
+        margin-left: 620px;
+    }
+
+    #six{
+        padding-top: 15px;
+        padding-bottom: 30px;
+        min-height: 30em;
+        max-height: 920px;
+        align-content: center;
+        padding-left: 300px;
+        padding-right: 300px;
+        
+    }
+
+    #coursesheading{
+        font-family: 'Roboto';
+        font-size: 30px;
+        margin-left: 250px;
+        padding-top: 40px;
+    }
+
+
+    #about{
+        margin-left:30px;
+        margin-right:30px;
+        font-family: 'Roboto';
+        font-size: 25px;
+        margin-left: 250px;
+        
+    }
+
+    #content{
+        margin-left:50px;
+        margin-right:50px;
+
+    }
+
+    #six hr{
+        border: 0.5px solid rgb(81, 81, 81);
+        margin-left:50px;
+        margin-right:50px;
+
+    }
+
+    #card1{
+        padding: 10px 40px;
+        padding-bottom: 10px;
+        background-color: #333333;
+        width: 250px;
+        height: 190px;
+        margin-right: 5px;  
+        text-align: center;
+        -webkit-box-shadow: 0 8px 6px -6px #333;
+        -moz-box-shadow: 0 8px 6px -6px #333;
+        box-shadow: 0 8px 6px -6px #333;
+    }
+
+    #card2{
+        float: right;
+        background-color: #333333;
+        width: 250px;
+        height: 190px;
+        margin-left: 360px;
+        margin-top: -210px;
+        padding: 10px 40px;
+        text-align: center;
+        -webkit-box-shadow: 0 8px 6px -6px #333;
+        -moz-box-shadow: 0 8px 6px -6px #333;
+        box-shadow: 0 8px 6px -6px #333;
+    }
+
+    .knowmore{
+        padding-top:5px;
+        color: white;
+        border-radius: 5px;
+        border: 0.8px solid #333333;
+        background-color: #ea5b0c;
+        height: 25px;
+        width: 120px;
+        padding-bottom: 10px; 
+    }
+
+
+    .topics,.intopics{
+        font-family: 'Raleway';
+        color: white;
+    }
+
+    .topics{
+        font-weight: bolder;
+    }
+
+    #footer{
+        padding: 0px 60px;
+        height: 80px;
+        background-color: #333;
+    }
+
+    #website{
+        padding-top: 20px;
+    }
+
+    #link, #email{
+        font-size: 14px;
+        font-family: 'Raleway';
+        color: white;
+        text-decoration: none !important;
+    }
+
+    #copyright{
+        font-size: 14px;
+        margin-top: -30px;
+        font-family: 'Raleway';
+        color: white;
+        float: right;
+    }
+
+    #four, #foura{
+        min-height: 30em;
+        max-height: 920px;
+        margin-bottom: 20px;
+    }
+
+    #dbimg, #compimg{
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    #bigdata, #ds{
+        min-height: 53em;
+        margin: 0px 50px;
+        border: 0.5px solid #333;
+        background-color: rgb(236, 232, 232);
+        padding-top: 30px;
+    }
+
+    #bigdatalp, #dslp{
+        margin: 60px 50px;
+        font-family: "Raleway";
+        font-size: 24px;
+    }
+
+    .bigdataip, .hadoop, .mongodb, .spark, .ml{  
+        background-repeat: no-repeat;
+        height: 80px; 
+        color: white;
+        padding-top: 20px;
+        font-family: 'Raleway';
+        font-weight: bolder;
+    }
+
+    .bigdataip{
+        padding-top: 5px;
+        text-indent: 40px;
+        background-image: url("https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/orange.png");
+    }
+
+    .hadoop{
+        text-indent: 40px;
+        background-image: url("https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/yellow.png");
+    }
+
+    .mongodb{
+        padding-top: 10px;
+        text-indent: 1px;
+        background-image: url("https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/green.png");
+    }
+
+    .spark{
+        text-indent: 45px;
+        background-image: url("https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/blue.png");
+    }
+
+    .ml{
+        text-indent: 2px;
+        background-image: url("https://d24cdstip7q8pz.cloudfront.net/t/t20161026195759/content/common/images/orange.png");
+    }
+
+    
+
+    .col1{
+        margin-bottom: 49px;
+        margin-top: -135px;
+        float: right;
+        text-align: center;
+        width: 290px;
+    }
+
+    .col2{
+        margin-top: -240px;
+        margin-left: 90px;
+        float: left;
+        width: 100%;
+    }
+
+    .col3{
+        margin-top: -345px;
+        margin-left: 340px;
+        float: left;
+        width: 100%;
+    }
+
+    .col4{
+        width: 100%;
+        float: left;
+        margin-top: -460px;
+        margin-left: 610px;
+    }
+
+    .col1data, .col2data, .col3data, .col4data{
+        text-align: left;
+    }
+    #weeks{
+        margin-right: -500px;
+        float: right;
+    }
+
+    .colhead{
+
+        font-family: 'Roboto';     
+        text-align: left;
+        font-size: 18px;
+    }
+
+    .rating hr{
+        border: 0.5px solid #333;
+        min-width: 900px;
+        margin-top: 40px;
+        margin-left: 70px;
+        margin-right: 90px;
+    }
+
+    #fourfooter{
+        padding-left: 40px;
+    }
+
+    h4{
+        font-weight: bolder;
+    }
+
+    
